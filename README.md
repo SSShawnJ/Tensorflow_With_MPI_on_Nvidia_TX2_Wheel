@@ -20,7 +20,7 @@ pip3 install tensorflow-wheel-file
 ```
 
 ## Build/Compile Tensorflow with MPI wheel on your system
-Please reference the content in [this](https://github.com/peterlee0127/tensorflow-nvJetson) repo. REMEMBER to turn on MPI support in the ./configure:
+Please reference the content in [this](https://github.com/peterlee0127/tensorflow-nvJetson) repo. REMEMBER to turn on MPI support when execute ./configure:
 ```
 Do you wish to build TensorFlow with MPI support? [y/N]: y
 ```
