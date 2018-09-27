@@ -1,7 +1,7 @@
-# Tensorflow_With_MPI_on_Nvidia_TX2_Wheel
+# Tensorflow_With_MPI_on_Nvidia_Jetson_TX2_Wheels
 
 ## Introduction
-Tensorflow with MPI support on Nvidia Jetson TX2 Wheel.
+Tensorflow with MPI support on Nvidia Jetson TX2.
 
 ## System Info
 ### JetPack 3.3, TensorFlow 1.10
