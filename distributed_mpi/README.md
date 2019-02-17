@@ -2,7 +2,7 @@
 
 ## Important Notes
 1. Execute the script 'reinstall.sh' in ~/Documents, When the tf job completed each time.
-2. The location to put the required file scripts:
+2. The location to put the required scripts:
 - job_dispatcher.py: working_directory/
 - moe.py: working_directory/
 - utility.py: working_directory/
