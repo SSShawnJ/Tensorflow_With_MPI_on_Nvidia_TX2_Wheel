@@ -18,47 +18,47 @@
 On 44323 and 44324:
 
 1. ```cd ~/workspace/expert_mnist/expert_2```
-2. Do part 2 in important notes.
+2. Do point 2 in important notes.
 3. Open a terminal on each device and run: 
 - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324 --use_mpi=False  --task=mnist --num_experts=2 --device=cpu --task_index=0``` on 44323
 - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324 --use_mpi=False  --task=mnist --num_experts=2 --device=cpu --task_index=1``` on 44324
 - You can switch device between 'cpu' and 'gpu'
-4. Do part 1 in important notes.
+4. Do point 1 in important notes.
 
 ### CIFAR10
 On 44323 and 44324:
 
 1. ```cd ~/workspace/expert_2```
-2. Do part 2 in important notes.
+2. Do point 2 in important notes.
 3. Open a terminal on each device and run: 
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324 --use_mpi=False  --task=cifar10 --num_experts=2 --device=cpu --task_index=0``` on 44323
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324 --use_mpi=False  --task=cifar10 --num_experts=2 --device=cpu --task_index=1``` on 44324
  - You can switch device between 'cpu' and 'gpu'
-4. Do part 1 in important notes.
+4. Do point 1 in important notes.
 
 ## 4 Experts
 ### MNIST
 On 44323, 44324, 44327, 44328:
 
 1. ```cd ~/workspace/expert_mnist/expert_4```
-2. Do part 2 in important notes.
+2. Do point 2 in important notes.
 3. Open a terminal on each device and run: 
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --use_mpi=False  --task=mnist --num_experts=4 --device=cpu --task_index=0``` on 44323
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --use_mpi=False  --task=mnist --num_experts=4 --device=cpu --task_index=1``` on 44324
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --use_mpi=False  --task=mnist --num_experts=4 --device=cpu --task_index=2``` on 44327
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --use_mpi=False  --task=mnist --num_experts=4 --device=cpu --task_index=3``` on 44328
  - You can switch device between 'cpu' and 'gpu'
-4. Do part 1 in important notes.
+4. Do point 1 in important notes.
 
 ### CIFAR10
 On 44323, 44324, 44327, 44328:
 
 1. ```cd ~/workspace/expert_4```
-2. Do part 2 in important notes.
+2. Do point 2 in important notes.
 3. Open a terminal on each device and run: 
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --use_mpi=False  --task=cifar10 --num_experts=4 --device=cpu --task_index=0``` on 44323
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --use_mpi=False  --task=cifar10 --num_experts=4 --device=cpu --task_index=1``` on 44324
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --use_mpi=False  --task=cifar10 --num_experts=4 --device=cpu --task_index=2``` on 44327
  - ```python3 expert_job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --use_mpi=False  --task=cifar10 --num_experts=4 --device=cpu --task_index=3``` on 44328
  - You can switch device between 'cpu' and 'gpu'
-4. Do part 1 in important notes.
+4. Do point 1 in important notes.
