@@ -2,7 +2,7 @@
 
 ## Important Notes
 1. Execute the script 'reinstall.sh' in ~/Documents, When the GRPC job completed each time.
-2. The location to put the required file scripts:
+2. The location to put the required scripts:
 - \_\_init\_\_.py: working_directory/tensor2tensor/
 - expert_job_dispatcher.py: working_directory/
 - expert_moe.py: working_directory/
