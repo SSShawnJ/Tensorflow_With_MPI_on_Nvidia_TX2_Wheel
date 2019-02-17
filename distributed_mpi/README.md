@@ -17,23 +17,23 @@ On 44323 and 44324:
 
 1. ```cd ~/workspace/teamnet_mpi/```
 2. In basic.py, uncommnet the code under '# 2 devices' and comment the code under '# 4 devices'
-3. Do part 2 in important notes.
+3. Do point 2 in important notes.
 
 On 44323:
 
 4. Open a terminal and run: 
-- ```mpirun -host master,lanhost -bind-to none -mca pml ob1 -mca btl ^openib -mca btl_tcp_if_exclude l4tbr0,docker0,lo python3 -m mpi4py job_dispatcher.py --worker_hosts=master:44323,lanhost:44324 --task=mnist --device=cpu --by_conv=False```
+- ```mpirun -host master,lanhost -bind-to none -mca pml ob1 -mca btl ^openib -mca btl_tcp_if_exclude l4tbr0,docker0,lo python3 -m mpi4py job_dispatcher.py --worker_hosts=master:44323,lanhost:44324 --task=mnist --device=cpu```
 - You can switch device between 'cpu' and 'gpu'
 
 On 44323 and 44324:
-5. Do part 1 in important notes.
+5. Do point 1 in important notes.
 
 ### CIFAR10
 On 44323 and 44324:
 
 1. ```cd ~/workspace/teamnet_mpi/```
 2. (If by_conv=True) In shake_shake.py, inside my_conv_2d() function, uncommnet the code under '# 2 devices' and comment the code under '# 4 devices'
-3. Do part 2 in important notes.
+3. Do point 2 in important notes.
 
 On 44323:
 
@@ -42,7 +42,7 @@ On 44323:
 - You can switch device between 'cpu' and 'gpu'
 
 On 44323 and 44324:
-5. Do part 1 in important notes.
+5. Do point 1 in important notes.
 
 ## 4 Devices
 ### MNIST
@@ -50,23 +50,23 @@ On 44323, 44324, 44327, 44328:
 
 1. ```cd ~/workspace/teamnet_mpi/```
 2. In basic.py, uncommnet the code under '# 4 devices' and comment the code under '# 2 devices'
-3. Do part 2 in important notes.
+3. Do point 2 in important notes.
 
 On 44323:
 
 4. Open a terminal and run: 
-- ```mpirun -host master,lanhost,lanhost2,lanhost3 -bind-to none -mca pml ob1 -mca btl ^openib -mca btl_tcp_if_exclude l4tbr0,docker0,lo python3 -m mpi4py job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --task=mnist --device=cpu --by_conv=False```
+- ```mpirun -host master,lanhost,lanhost2,lanhost3 -bind-to none -mca pml ob1 -mca btl ^openib -mca btl_tcp_if_exclude l4tbr0,docker0,lo python3 -m mpi4py job_dispatcher.py --worker_hosts=master:44323,lanhost:44324,lanhost2:44327,lanhost3:44328 --task=mnist --device=cpu```
 - You can switch device between 'cpu' and 'gpu'
 
 On 44323, 44324, 44327, 44328:
-5. Do part 1 in important notes.
+5. Do point 1 in important notes.
 
 ### CIFAR10
 On 44323, 44324, 44327, 44328:
 
 1. ```cd ~/workspace/teamnet_mpi/```
 2. In shake_shake.py, uncommnet the code under '# 4 devices' and comment the code under '# 2 devices'
-3. Do part 2 in important notes.
+3. Do point 2 in important notes.
 
 On 44323:
 
@@ -75,4 +75,4 @@ On 44323:
 - You can switch device between 'cpu' and 'gpu'
 
 On 44323, 44324, 44327, 44328:
-5. Do part 1 in important notes.
+5. Do point 1 in important notes.
