@@ -18,7 +18,7 @@
 On 44323, 44324:
 
 1. ```cd ~/workspace/expert_mnist/expert_2```
-2. Do part 2 in important notes.
+2. Do point 2 in important notes.
 
 On 44323:
 
@@ -26,13 +26,13 @@ On 44323:
 
 On 44323, 44324:
 
-4. Do part 1 in important notes.
+4. Do point 1 in important notes.
 
 ### CIFAR10
 On 44323, 44324:
 
 1. ```cd ~/workspace/expert_2```
-2. Do part 2 in important notes.
+2. Do point 2 in important notes.
 
 On 44323:
 
@@ -40,14 +40,14 @@ On 44323:
 
 On each devices:
 
-4. Do part 1 in important notes.
+4. Do point 1 in important notes.
 
 ## 4 Experts
 ### MNIST
 On 44323, 44324, 44327, 44328:
 
 1. ```cd ~/workspace/expert_mnist/expert_4```
-2. Do part 2 in important notes.
+2. Do point 2 in important notes.
 
 On 44323:
 
@@ -55,12 +55,12 @@ On 44323:
 
 On 44323, 44324, 44327, 44328:
 
-4. Do part 1 in important notes.
+4. Do point 1 in important notes.
 
 ### CIFAR10
 On 44323, 44324, 44327, 44328:
 1. ```cd ~/workspace/expert_4```
-2. Do part 2 in important notes.
+2. Do point 2 in important notes.
 
 On 44323:
 
@@ -68,4 +68,4 @@ On 44323:
 
 On 44323, 44324, 44327, 44328:
 
-4. Do part 1 in important notes.
+4. Do point 1 in important notes.
